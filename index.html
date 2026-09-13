@@ -3,13 +3,134 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unlocked</title>
+  <title>Unlocked248 | English Online Courses</title>
+  <meta name="description" content="Unlocked248 — learn English online with general English courses and exam preparation (IELTS, TOEFL) for every level." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="hero">
-    <h1>Unlocked</h1>
-    <p>This site is served over HTTPS by GitHub Pages.</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">Unlocked<span>248</span></a>
+      <nav>
+        <a href="#courses">Courses</a>
+        <a href="#why-us">Why us</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact" class="cta">Get started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Unlock your English, online.</h1>
+        <p class="lead">
+          Live online classes for every level — from your first words to exam-ready fluency.
+          General English and IELTS/TOEFL prep with real teachers, flexible schedules.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book a free trial lesson</a>
+          <a href="#courses" class="btn btn-ghost">See courses</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section">
+      <div class="container">
+        <h2>Courses</h2>
+        <p class="section-lead">Pick the track that matches your goal.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>General English</h3>
+            <p class="badge">Beginner → Advanced (A1–C1)</p>
+            <p>Build real conversational skills, grammar, and vocabulary step by step, at the pace that suits you.</p>
+            <ul>
+              <li>Small group or 1-on-1 lessons</li>
+              <li>Speaking-focused practice</li>
+              <li>Progress tracking by level</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>IELTS Preparation</h3>
+            <p class="badge">Exam prep</p>
+            <p>Targeted strategies and practice tests for Listening, Reading, Writing, and Speaking.</p>
+            <ul>
+              <li>Full mock exams</li>
+              <li>Writing & speaking feedback</li>
+              <li>Band-score focused coaching</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>TOEFL Preparation</h3>
+            <p class="badge">Exam prep</p>
+            <p>Master the TOEFL iBT format with academic English practice and test-day strategy.</p>
+            <ul>
+              <li>Section-by-section drills</li>
+              <li>Timed practice tests</li>
+              <li>Academic writing support</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="section alt">
+      <div class="container">
+        <h2>Why Unlocked248</h2>
+        <div class="features">
+          <div class="feature">
+            <h3>Flexible schedule</h3>
+            <p>Study from anywhere, at times that fit your life — mornings, evenings, or weekends.</p>
+          </div>
+          <div class="feature">
+            <h3>Real teachers</h3>
+            <p>Learn with experienced instructors who give you personal feedback, not just recorded videos.</p>
+          </div>
+          <div class="feature">
+            <h3>Clear progress</h3>
+            <p>Every course is level-based, so you always know where you are and what's next.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2>What students say</h2>
+        <div class="cards">
+          <blockquote class="card quote">
+            <p>"I went from barely speaking to passing my IELTS with a 7.0 in four months."</p>
+            <footer>— Student, IELTS Prep</footer>
+          </blockquote>
+          <blockquote class="card quote">
+            <p>"The lessons actually fit my work schedule. Huge difference from my last course."</p>
+            <footer>— Student, General English</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact-inner">
+        <h2>Ready to start?</h2>
+        <p class="section-lead">Message us to book a free trial lesson or ask about courses.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="https://instagram.com/unlocked248" target="_blank" rel="noopener">Instagram · @unlocked248</a>
+          <a class="btn btn-primary" href="https://t.me/unlocked248" target="_blank" rel="noopener">Telegram · @unlocked248</a>
+        </div>
+        <p class="note">(Replace these links with your real Instagram/Telegram handles.)</p>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Unlocked248. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
