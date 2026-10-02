@@ -36,7 +36,7 @@ npm run build       # -> dist/
 
 ## Going live and getting onto Google
 
-1. **Turn on hosting:** on GitHub open *Settings → Pages*. Under **Source**, choose **GitHub Actions**. Each push to `main` then publishes the site to `https://kwini22.github.io/unlocked/`. The repository must be public on a free GitHub plan.
+1. **Turn on hosting:** on GitHub open *Settings → Pages*. Under **Source**, choose **GitHub Actions**. Each push to `main` then publishes the site to `https://kwini22.github.io/business/`. The repository must be public on a free GitHub plan.
 2. **Optional custom domain (recommended), for example `mirinae.uz`:**
    - Set `siteUrl` in `site.config.json` to `https://mirinae.uz`, or add a repository variable `SITE_URL`.
    - Add the domain in *Settings → Pages → Custom domain*.
